@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E41EE24277B16A700445807 /* TextFieldSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E41EE23277B16A700445807 /* TextFieldSet.swift */; };
+		7E41EE27277B16C200445807 /* TextFieldSet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E41EE26277B16C200445807 /* TextFieldSet.xib */; };
+		7E449FE72775C0B4009DC50C /* MeasurementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E449FE62775C0B4009DC50C /* MeasurementsViewController.swift */; };
 		7ECCEA8D27735EE700C97059 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECCEA8C27735EE700C97059 /* AppDelegate.swift */; };
 		7ECCEA8F27735EE700C97059 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECCEA8E27735EE700C97059 /* SceneDelegate.swift */; };
 		7ECCEA9127735EE700C97059 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECCEA9027735EE700C97059 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E41EE23277B16A700445807 /* TextFieldSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldSet.swift; sourceTree = "<group>"; };
+		7E41EE26277B16C200445807 /* TextFieldSet.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldSet.xib; sourceTree = "<group>"; };
+		7E449FE62775C0B4009DC50C /* MeasurementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementsViewController.swift; sourceTree = "<group>"; };
 		7ECCEA8927735EE700C97059 /* NewCustomFootwear-Measurements.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NewCustomFootwear-Measurements.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ECCEA8C27735EE700C97059 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7ECCEA8E27735EE700C97059 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +69,9 @@
 				7ECCEA9527735EEA00C97059 /* Assets.xcassets */,
 				7ECCEA9727735EEA00C97059 /* LaunchScreen.storyboard */,
 				7ECCEA9A27735EEA00C97059 /* Info.plist */,
+				7E449FE62775C0B4009DC50C /* MeasurementsViewController.swift */,
+				7E41EE23277B16A700445807 /* TextFieldSet.swift */,
+				7E41EE26277B16C200445807 /* TextFieldSet.xib */,
 			);
 			path = "NewCustomFootwear-Measurements";
 			sourceTree = "<group>";
@@ -126,6 +135,7 @@
 			files = (
 				7ECCEA9927735EEA00C97059 /* LaunchScreen.storyboard in Resources */,
 				7ECCEA9627735EEA00C97059 /* Assets.xcassets in Resources */,
+				7E41EE27277B16C200445807 /* TextFieldSet.xib in Resources */,
 				7ECCEA9427735EE700C97059 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +149,9 @@
 			files = (
 				7ECCEA9127735EE700C97059 /* ViewController.swift in Sources */,
 				7ECCEA8D27735EE700C97059 /* AppDelegate.swift in Sources */,
+				7E449FE72775C0B4009DC50C /* MeasurementsViewController.swift in Sources */,
 				7ECCEA8F27735EE700C97059 /* SceneDelegate.swift in Sources */,
+				7E41EE24277B16A700445807 /* TextFieldSet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
